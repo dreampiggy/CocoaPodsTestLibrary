@@ -36,6 +36,10 @@ TODO: Add long description of the pod here.
     'TestLibrary' => ['TestLibrary/Assets/TestLibrary.xcassets']
   }
 
+  s.pod_target_xcconfig = {
+    'DEFINES_MODULE' => 'YES'
+  }
+
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'

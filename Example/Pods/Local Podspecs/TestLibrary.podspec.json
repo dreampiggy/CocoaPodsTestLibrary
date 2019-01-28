@@ -18,5 +18,13 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "TestLibrary/Classes/**/*"
+  "source_files": "TestLibrary/Classes/**/*",
+  "resource_bundles": {
+    "TestLibrary": [
+      "TestLibrary/Assets/TestLibrary.xcassets"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  }
 }
